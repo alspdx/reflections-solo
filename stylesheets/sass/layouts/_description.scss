@@ -1,5 +1,11 @@
 .description {
   background: $description-background;
   height: $description-height;
-  width: 100%;
+  width: calc(100% - ($description-side-margin * 2));
+  margin: $description-margin;
+  border-radius: $border-radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $padding1;
 }

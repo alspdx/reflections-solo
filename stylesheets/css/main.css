@@ -1,353 +1,91 @@
-.wrapper,
-.row {
-  *zoom: 1; }
-  .wrapper:before,
-  .row:before, .wrapper:after,
-  .row:after {
-    content: " ";
-    display: table; }
-  .wrapper:after,
-  .row:after {
-    clear: both; }
-
-*,
-*:after,
-*:before {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-body {
-  color: #efefeb; }
-
-[class^='col-'] {
-  float: left;
-  padding: 1em;
-  width: 100%;
-  min-height: 1px; }
-
-@media screen and (min-width: 1px) {
-  .col-sm-1 {
-    width: calc(100% / 12 * 1); }
-
-  .offset-sm-1 {
-    margin-left: calc(100% / 12 * 1); }
-
-  .col-sm-2 {
-    width: calc(100% / 12 * 2); }
-
-  .offset-sm-2 {
-    margin-left: calc(100% / 12 * 2); }
-
-  .col-sm-3 {
-    width: calc(100% / 12 * 3); }
-
-  .offset-sm-3 {
-    margin-left: calc(100% / 12 * 3); }
-
-  .col-sm-4 {
-    width: calc(100% / 12 * 4); }
-
-  .offset-sm-4 {
-    margin-left: calc(100% / 12 * 4); }
-
-  .col-sm-5 {
-    width: calc(100% / 12 * 5); }
-
-  .offset-sm-5 {
-    margin-left: calc(100% / 12 * 5); }
-
-  .col-sm-6 {
-    width: calc(100% / 12 * 6); }
-
-  .offset-sm-6 {
-    margin-left: calc(100% / 12 * 6); }
-
-  .col-sm-7 {
-    width: calc(100% / 12 * 7); }
-
-  .offset-sm-7 {
-    margin-left: calc(100% / 12 * 7); }
-
-  .col-sm-8 {
-    width: calc(100% / 12 * 8); }
-
-  .offset-sm-8 {
-    margin-left: calc(100% / 12 * 8); }
-
-  .col-sm-9 {
-    width: calc(100% / 12 * 9); }
-
-  .offset-sm-9 {
-    margin-left: calc(100% / 12 * 9); }
-
-  .col-sm-10 {
-    width: calc(100% / 12 * 10); }
-
-  .offset-sm-10 {
-    margin-left: calc(100% / 12 * 10); }
-
-  .col-sm-11 {
-    width: calc(100% / 12 * 11); }
-
-  .offset-sm-11 {
-    margin-left: calc(100% / 12 * 11); }
-
-  .col-sm-12 {
-    width: calc(100% / 12 * 12); }
-
-  .offset-sm-12 {
-    margin-left: calc(100% / 12 * 12); } }
-@media screen and (min-width: 768px) {
-  .col-md-1 {
-    width: calc(100% / 12 * 1); }
-
-  .offset-md-1 {
-    margin-left: calc(100% / 12 * 1); }
-
-  .col-md-2 {
-    width: calc(100% / 12 * 2); }
-
-  .offset-md-2 {
-    margin-left: calc(100% / 12 * 2); }
-
-  .col-md-3 {
-    width: calc(100% / 12 * 3); }
-
-  .offset-md-3 {
-    margin-left: calc(100% / 12 * 3); }
-
-  .col-md-4 {
-    width: calc(100% / 12 * 4); }
-
-  .offset-md-4 {
-    margin-left: calc(100% / 12 * 4); }
-
-  .col-md-5 {
-    width: calc(100% / 12 * 5); }
-
-  .offset-md-5 {
-    margin-left: calc(100% / 12 * 5); }
-
-  .col-md-6 {
-    width: calc(100% / 12 * 6); }
-
-  .offset-md-6 {
-    margin-left: calc(100% / 12 * 6); }
-
-  .col-md-7 {
-    width: calc(100% / 12 * 7); }
-
-  .offset-md-7 {
-    margin-left: calc(100% / 12 * 7); }
-
-  .col-md-8 {
-    width: calc(100% / 12 * 8); }
-
-  .offset-md-8 {
-    margin-left: calc(100% / 12 * 8); }
-
-  .col-md-9 {
-    width: calc(100% / 12 * 9); }
-
-  .offset-md-9 {
-    margin-left: calc(100% / 12 * 9); }
-
-  .col-md-10 {
-    width: calc(100% / 12 * 10); }
-
-  .offset-md-10 {
-    margin-left: calc(100% / 12 * 10); }
-
-  .col-md-11 {
-    width: calc(100% / 12 * 11); }
-
-  .offset-md-11 {
-    margin-left: calc(100% / 12 * 11); }
-
-  .col-md-12 {
-    width: calc(100% / 12 * 12); }
-
-  .offset-md-12 {
-    margin-left: calc(100% / 12 * 12); } }
-@media screen and (min-width: 1024px) {
-  .col-lg-1 {
-    width: calc(100% / 12 * 1); }
-
-  .offset-lg-1 {
-    margin-left: calc(100% / 12 * 1); }
-
-  .col-lg-2 {
-    width: calc(100% / 12 * 2); }
-
-  .offset-lg-2 {
-    margin-left: calc(100% / 12 * 2); }
-
-  .col-lg-3 {
-    width: calc(100% / 12 * 3); }
-
-  .offset-lg-3 {
-    margin-left: calc(100% / 12 * 3); }
-
-  .col-lg-4 {
-    width: calc(100% / 12 * 4); }
-
-  .offset-lg-4 {
-    margin-left: calc(100% / 12 * 4); }
-
-  .col-lg-5 {
-    width: calc(100% / 12 * 5); }
-
-  .offset-lg-5 {
-    margin-left: calc(100% / 12 * 5); }
-
-  .col-lg-6 {
-    width: calc(100% / 12 * 6); }
-
-  .offset-lg-6 {
-    margin-left: calc(100% / 12 * 6); }
-
-  .col-lg-7 {
-    width: calc(100% / 12 * 7); }
-
-  .offset-lg-7 {
-    margin-left: calc(100% / 12 * 7); }
-
-  .col-lg-8 {
-    width: calc(100% / 12 * 8); }
-
-  .offset-lg-8 {
-    margin-left: calc(100% / 12 * 8); }
-
-  .col-lg-9 {
-    width: calc(100% / 12 * 9); }
-
-  .offset-lg-9 {
-    margin-left: calc(100% / 12 * 9); }
-
-  .col-lg-10 {
-    width: calc(100% / 12 * 10); }
-
-  .offset-lg-10 {
-    margin-left: calc(100% / 12 * 10); }
-
-  .col-lg-11 {
-    width: calc(100% / 12 * 11); }
-
-  .offset-lg-11 {
-    margin-left: calc(100% / 12 * 11); }
-
-  .col-lg-12 {
-    width: calc(100% / 12 * 12); }
-
-  .offset-lg-12 {
-    margin-left: calc(100% / 12 * 12); } }
-@media screen and (min-width: 1440px) {
-  .col-xl-1 {
-    width: calc(100% / 12 * 1); }
-
-  .offset-xl-1 {
-    margin-left: calc(100% / 12 * 1); }
-
-  .col-xl-2 {
-    width: calc(100% / 12 * 2); }
-
-  .offset-xl-2 {
-    margin-left: calc(100% / 12 * 2); }
-
-  .col-xl-3 {
-    width: calc(100% / 12 * 3); }
-
-  .offset-xl-3 {
-    margin-left: calc(100% / 12 * 3); }
-
-  .col-xl-4 {
-    width: calc(100% / 12 * 4); }
-
-  .offset-xl-4 {
-    margin-left: calc(100% / 12 * 4); }
-
-  .col-xl-5 {
-    width: calc(100% / 12 * 5); }
-
-  .offset-xl-5 {
-    margin-left: calc(100% / 12 * 5); }
-
-  .col-xl-6 {
-    width: calc(100% / 12 * 6); }
-
-  .offset-xl-6 {
-    margin-left: calc(100% / 12 * 6); }
-
-  .col-xl-7 {
-    width: calc(100% / 12 * 7); }
-
-  .offset-xl-7 {
-    margin-left: calc(100% / 12 * 7); }
-
-  .col-xl-8 {
-    width: calc(100% / 12 * 8); }
-
-  .offset-xl-8 {
-    margin-left: calc(100% / 12 * 8); }
-
-  .col-xl-9 {
-    width: calc(100% / 12 * 9); }
-
-  .offset-xl-9 {
-    margin-left: calc(100% / 12 * 9); }
-
-  .col-xl-10 {
-    width: calc(100% / 12 * 10); }
-
-  .offset-xl-10 {
-    margin-left: calc(100% / 12 * 10); }
-
-  .col-xl-11 {
-    width: calc(100% / 12 * 11); }
-
-  .offset-xl-11 {
-    margin-left: calc(100% / 12 * 11); }
-
-  .col-xl-12 {
-    width: calc(100% / 12 * 12); }
-
-  .offset-xl-12 {
-    margin-left: calc(100% / 12 * 12); } }
-header {
-  background: transparent;
-  height: 60px;
-  width: 100%;
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px; }
-
-.hero {
-  height: 100vh;
-  width: 100%;
-  z-index: -1; }
-  .hero img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%; }
-
-.description {
-  background: #fff;
-  height: 100px;
-  width: 100%; }
-
-.gallery {
-  background: #888;
-  height: 100px;
-  width: 100%; }
-
-footer {
-  background: #000;
-  height: 100px;
-  width: 100%; }
-
-/*# sourceMappingURL=main.css.map */
+/*
+Error: Invalid CSS after "...clude card-img(": expected ")", was ", 60%);"
+        on line 7 of sass/layouts/_gallery.scss
+        from line 5 of sass/layouts/_all.scss
+        from line 5 of sass/main.scss
+
+2:   background: $gallery-background;
+3:   width: 100%;
+4: }
+5: 
+6: .card:nth-child(2n+1) {
+7:   @include card-img(, 60%);
+8: }
+
+Backtrace:
+sass/layouts/_gallery.scss:7
+sass/layouts/_all.scss:5
+sass/main.scss:5
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/lexer.rb:229:in `expected!'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/parser.rb:717:in `assert_tok'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/parser.rb:121:in `parse_mixin_include_arglist'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1063:in `sass_script'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:239:in `include_directive'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:222:in `special_directive'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:197:in `directive'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:674:in `block_contents'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:312:in `to_tree'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `map'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...clude card-img(\": expected \")\", was \", 60%);\"\A         on line 7 of sass/layouts/_gallery.scss\A         from line 5 of sass/layouts/_all.scss\A         from line 5 of sass/main.scss\A \A 2:   background: $gallery-background;\A 3:   width: 100%;\A 4: }\A 5: \A 6: .card:nth-child(2n+1) {\A 7:   @include card-img(, 60%);\A 8: }"; }

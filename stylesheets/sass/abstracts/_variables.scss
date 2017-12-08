@@ -11,26 +11,29 @@ $breakpoints: (
 );
 
 // Colors
-$light-sand: #efefeb;
-$color1: #ccc;
-$color2: #888;
-$black: #000;
-$white: #fff;
+$light-sand: rgba(241, 232, 228, .6);
+$burnt-orange: rgba(184, 75, 22, 1);
+$brown: rgba(82, 58, 45, 1);
+$teal: rgba(14, 125, 118, 1);
+$main-font-color: $brown;
 
-// Backgrounds
+// Specific colors
 $header-background: transparent;
-$hero-background: url("../images/hammock.jpg");
-$description-background: $white;
-$gallery-background: $color2;
-$footer-background: $black;
+$header-text-color: $burnt-orange;
+$description-background: $light-sand;
+$gallery-background: $light-sand;
+$footer-background: $light-sand;
 
 // Global Sizes
 $padding1: 10px;
-$main-font-color: $light-sand;
+$border-radius: 8px;
 
 // Specific sizes
 $header-height: 60px;
 $hero-height: 100vh;
-$description-height: 100px;
-$gallery-height: 100px;
+$description-height: 28vh;
+$description-side-margin: 2vh;
+$description-margin: 70vh $description-side-margin 2vh;
+$card-height: 300px;
+
 $footer-height: 100px;

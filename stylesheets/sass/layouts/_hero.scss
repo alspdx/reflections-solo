@@ -2,6 +2,7 @@
   height: $hero-height;
   width: 100%;
   z-index: -1;
+  position: absolute;
   img {
     object-fit: cover;
     height: 100%;

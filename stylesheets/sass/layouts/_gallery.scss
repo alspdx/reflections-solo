@@ -1,5 +1,8 @@
 .gallery {
   background: $gallery-background;
-  height: $gallery-height;
   width: 100%;
+}
+
+.card:nth-child(2n+1) {
+  @include card-img(, 60%);
 }

@@ -6,5 +6,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: $padding1
+  padding: $padding1;
+  color: $header-text-color;
 }
