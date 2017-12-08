@@ -3,4 +3,8 @@ header {
   height: $header-height;
   width: 100%;
   position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $padding1
 }
