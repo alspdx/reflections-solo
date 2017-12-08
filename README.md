@@ -1,6 +1,6 @@
-# Reflection
+# 
 
-#### An examination of reflections, _2017_
+####  _2017_
 
 #### by **Adam Smith**
 
@@ -29,7 +29,7 @@ What I took away from the project was that there are a lot of different approach
 
 ## Moving Forward:
 
-I think today will go a lot quicker since I have a sketch of the layout I'll be working on. I'll continue to not use a framework, I'm really enjoying building my own grid with a loop and setting my own styles. It's harder for me to style a page working in a pair, I like to move quickly with ideas and it can be tough to stop and talk out those ideas. I'm also much more likely to make regular commits on my own than I am working in a pair. I still haven't nailed down a topic for the page today so I'm going to start with getting a basic layout and go from there. After the layout I'll work on styling components and working on solidifying a topic. 
+I think today will go a lot quicker since I have a sketch of the layout I'll be working on. I'll continue to not use a framework, I'm really enjoying building my own grid with a loop and setting my own styles. It's harder for me to style a page working in a pair, I like to move quickly with ideas and it can be tough to stop and talk out those ideas. I'm also much more likely to make regular commits on my own than I am working in a pair. I still haven't nailed down a topic for the page today so I'm going to start with getting a basic layout and go from there. After the layout I'll work on styling components and working on solidifying a topic.
 
 ## Setup
 

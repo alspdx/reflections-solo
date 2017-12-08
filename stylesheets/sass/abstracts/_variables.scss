@@ -1,0 +1,36 @@
+// Grid Variables
+
+$grid-columns: 12;
+$column-padding: 1em;
+
+$breakpoints: (
+  'sm':'screen and (min-width:1px)',
+  'md':'screen and (min-width:768px)',
+  'lg':'screen and (min-width:1024px)',
+  'xl':'screen and (min-width:1440px)'
+);
+
+// Colors
+$light-sand: #efefeb;
+$color1: #ccc;
+$color2: #888;
+$black: #000;
+$white: #fff;
+
+// Backgrounds
+$header-background: transparent;
+$hero-background: url("../images/hammock.jpg");
+$description-background: $white;
+$gallery-background: $color2;
+$footer-background: $black;
+
+// Global Sizes
+$padding1: 10px;
+$main-font-color: $light-sand;
+
+// Specific sizes
+$header-height: 60px;
+$hero-height: 100vh;
+$description-height: 100px;
+$gallery-height: 100px;
+$footer-height: 100px;
