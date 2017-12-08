@@ -22,3 +22,9 @@
   z-index: 99;
   padding: $padding2;
 }
+
+@media #{$breakpoint-lg} {
+  .card {
+    height: $card-height-lg;
+  }
+}

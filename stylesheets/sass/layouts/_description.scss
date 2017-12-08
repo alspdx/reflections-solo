@@ -1,7 +1,7 @@
 .description {
   background: $description-background;
   height: $description-height;
-  width: calc(100% - ($description-side-margin * 2));
+  width: calc(100% - ($description-margin-amount * 2));
   margin: $description-margin;
   border-radius: $border-radius;
   display: flex;
@@ -9,4 +9,23 @@
   justify-content: center;
   padding: $padding1;
   text-align: center;
+}
+
+@media #{$breakpoint-md} {
+  .description {
+    background: $description-text-color;
+    color: $description-background;
+    margin-bottom: 0;
+  }
+}
+
+@media #{$breakpoint-lg} {
+  .description {
+    background: $description-background;
+    color: $description-text-color;
+    margin-bottom: $description-margin-amount;
+    margin-left: $description-margin-amount;
+    margin-right: $description-margin-amount;
+    margin-top: calc(#{$hero-height} - (#{$description-height} * 2) - (#{$description-margin-amount} * 3));
+  }
 }

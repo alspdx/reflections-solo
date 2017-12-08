@@ -55,6 +55,9 @@ body {
   z-index: 99;
   padding: 20px; }
 
+@media screen and (min-width: 1024px) {
+  .card {
+    height: 30vh; } }
 [class^='col-'] {
   float: left;
   width: 100%;
@@ -374,10 +377,13 @@ header {
   z-index: -1;
   position: absolute; }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 68vh; } }
 .description {
   background: #f0f0f0;
   height: 28vh;
-  width: calc(100% - ($description-side-margin * 2));
+  width: calc(100% - ($description-margin-amount * 2));
   margin: 70vh 2vh 2vh;
   border-radius: 8px;
   display: flex;
@@ -386,6 +392,19 @@ header {
   padding: 10px;
   text-align: center; }
 
+@media screen and (min-width: 768px) {
+  .description {
+    background: #523a2d;
+    color: #f0f0f0;
+    margin-bottom: 0; } }
+@media screen and (min-width: 1024px) {
+  .description {
+    background: #f0f0f0;
+    color: #523a2d;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: calc(100vh - (28vh * 2) - (2vh * 3)); } }
 .gallery {
   background: #f0f0f0;
   width: 100%;

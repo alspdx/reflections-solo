@@ -4,3 +4,9 @@
   z-index: -1;
   position: absolute;
 }
+
+@media #{$breakpoint-md} {
+  .hero {
+    height: $hero-height-md;
+  }
+}
