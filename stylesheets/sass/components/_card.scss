@@ -1,21 +1,24 @@
 .card {
-  margin: $card-margin 0; 
   height: $card-height;
-  display: flex;
-  flex-direction: column;
+}
+
+.card-inner {
+  height: 100%;
+  width: 100%;
+  padding: $padding1;
   position: relative;
 }
 
 .card-img {
   height: 100%;
   width: 100%;
-  position: absolute;
+  object-fit: cover;
 }
 
 .card-body{
   position: absolute;
-  width: 100%;
-  padding: 0 $padding1;
-  bottom: 20px;
+  bottom: 0px;
+  left: 0px;
   z-index: 99;
+  padding: $padding2;
 }

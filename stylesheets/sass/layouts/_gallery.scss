@@ -6,14 +6,15 @@
                -1px 1px 0 black,
                1px -1px 0 black,
                -1px -1px 0 black;
-  padding: 0 $padding1;
+  padding: $padding1 $padding1 0;
 }
+
 
 .card {
   img {
     @include border-radius($border-radius, $border-radius, $border-radius, $border-radius);
   }
-  
+
   h4 {
     @include font($header-font);
     font-size: 20px;

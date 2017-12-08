@@ -35,27 +35,28 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 .card {
-  margin: 10px 0;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
+  height: 200px; }
+
+.card-inner {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
   position: relative; }
 
 .card-img {
   height: 100%;
   width: 100%;
-  position: absolute; }
+  object-fit: cover; }
 
 .card-body {
   position: absolute;
-  width: 100%;
-  padding: 0 10px;
-  bottom: 20px;
-  z-index: 99; }
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+  padding: 20px; }
 
 [class^='col-'] {
   float: left;
-  padding: 1em;
   width: 100%;
   min-height: 1px; }
 
@@ -359,6 +360,14 @@ header {
   color: #b84b16;
   font-family: "Russo One", sans-serif; }
 
+@media screen and (min-width: 768px) {
+  header h1 {
+    font-size: 2.25em; } }
+@media screen and (min-width: 1024px) {
+  header {
+    height: calc($header-height + 20px); }
+    header h1 {
+      font-size: 2.75em; } }
 .hero {
   height: 100vh;
   width: 100%;
@@ -382,7 +391,7 @@ header {
   width: 100%;
   color: #f0f0f0;
   text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
-  padding: 0 10px; }
+  padding: 10px 10px 0; }
 
 .card img {
   border-radius: 8px 8px 8px 8px; }
