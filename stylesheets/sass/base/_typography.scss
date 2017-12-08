@@ -1,3 +1,5 @@
 body {
-  color: $main-font-color;
+  color: $brown;
+
+  @include font($body-font);
 }

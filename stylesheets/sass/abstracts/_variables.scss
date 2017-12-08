@@ -1,28 +1,37 @@
 // Grid Variables
-
 $grid-columns: 12;
 $column-padding: 1em;
 
+$breakpoint-sm: 'screen and (min-width:1px)';
+$breakpoint-md: 'screen and (min-width:768px)';
+$breakpoint-lg: 'screen and (min-width:1024px)';
+$breakpoint-xl: 'screen and (min-width:1440px)';
+
 $breakpoints: (
-  'sm':'screen and (min-width:1px)',
-  'md':'screen and (min-width:768px)',
-  'lg':'screen and (min-width:1024px)',
-  'xl':'screen and (min-width:1440px)'
+  'sm':'#{$breakpoint-sm}',
+  'md':'#{$breakpoint-md}',
+  'lg':'#{$breakpoint-lg}',
+  'xl':'#{$breakpoint-xl}'
 );
 
 // Colors
-$light-sand: rgba(241, 232, 228, .6);
+$light-sand: rgba(240, 240, 240, 1);
 $burnt-orange: rgba(184, 75, 22, 1);
 $brown: rgba(82, 58, 45, 1);
 $teal: rgba(14, 125, 118, 1);
-$main-font-color: $brown;
 
 // Specific colors
 $header-background: transparent;
 $header-text-color: $burnt-orange;
 $description-background: $light-sand;
 $gallery-background: $light-sand;
-$footer-background: $light-sand;
+$gallery-text-color: $light-sand;
+$footer-background: transparent;
+$footer-text-color: $burnt-orange;
+
+// Fonts
+$header-font: 'Russo One', sans-serif;
+$body-font: 'Open Sans', sans-serif;
 
 // Global Sizes
 $padding1: 10px;
@@ -34,6 +43,9 @@ $hero-height: 100vh;
 $description-height: 28vh;
 $description-side-margin: 2vh;
 $description-margin: 70vh $description-side-margin 2vh;
-$card-height: 300px;
-
-$footer-height: 100px;
+$card-margin: 10px;
+$card-height: 200px;
+$footer-height: 50px;
+$footer-font-size: 12px;
+$icon-margin: 0 10px;
+$icon-size: 30px;

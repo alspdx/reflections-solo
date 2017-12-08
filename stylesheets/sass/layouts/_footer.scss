@@ -1,5 +1,22 @@
 footer {
   background: $footer-background;
   height: $footer-height;
+  color: $footer-text-color;
   width: 100%;
+  padding: 0 $padding1;
+  font-size: $footer-font-size;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+
+  }
+  ul {
+    display: flex;
+
+  }
+  li {
+    margin: $icon-margin;
+    font-size: $icon-size;
+  }
 }

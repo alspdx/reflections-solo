@@ -8,4 +8,6 @@ header {
   align-items: center;
   padding: $padding1;
   color: $header-text-color;
+
+  @include font($header-font);
 }

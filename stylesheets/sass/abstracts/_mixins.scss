@@ -17,3 +17,15 @@
       clear: both;
   }
 }
+
+@mixin card-img($direction, $width) {
+  width: $width;
+}
+
+@mixin font($type) {
+  font-family: $type;
+}
+
+@mixin border-radius($top, $right, $bottom, $left) {
+  border-radius: $top $right $bottom $left;
+}
