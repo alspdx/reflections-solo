@@ -1,0 +1,19 @@
+[class^='col-'] {
+  float: left;
+  padding: $column-padding;
+  width: 100%;
+  min-height: 1px;
+}
+
+@each $size, $value in $breakpoints {
+  @media #{$value} {
+    @for $i from 1 through $grid-columns {
+      .col-#{$size}-#{$i} {
+        width: calc(100% / #{$grid-columns} * #{$i});
+      }
+      .offset-#{$size}-#{$i} {
+        margin-left: calc(100% / #{$grid-columns} * #{$i});
+      }
+    }
+  }
+}
