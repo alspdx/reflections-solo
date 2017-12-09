@@ -9,18 +9,14 @@
   justify-content: center;
   padding: $padding1;
   text-align: center;
-}
 
-@media #{$breakpoint-md} {
-  .description {
+  @include media(md) {
     background: $description-text-color; // The old switcheroo here
     color: $description-background; // And here
     margin-bottom: 0;
   }
-}
 
-@media #{$breakpoint-lg} {
-  .description {
+  @include media(lg) {
     background: $description-background; // Back 2 normal here
     color: $description-text-color; // And here
     margin-bottom: $description-margin-amount;

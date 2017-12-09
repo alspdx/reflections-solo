@@ -18,6 +18,18 @@
   }
 }
 
+@mixin media($screen-size) {
+  @if $screen-size == sm {
+    @media #{$breakpoint-sm} { @content; }
+  } @else if $screen-size == md {
+    @media #{$breakpoint-md} { @content; }
+  } @else if $screen-size == lg {
+    @media #{$breakpoint-lg} { @content; }
+  } @else if $screen-size == xl {
+    @media #{$breakpoint-xl} { @content; }
+  }
+}
+
 @mixin card-img($direction, $width) {
   width: $width;
 }

@@ -3,10 +3,8 @@
   width: 100%;
   z-index: -1;
   position: absolute;
-}
 
-@media #{$breakpoint-md} {
-  .hero {
+  @include media(md) {
     height: $hero-height-md;
   }
 }

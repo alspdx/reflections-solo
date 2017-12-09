@@ -27,40 +27,40 @@
   &:nth-child(even) .card-body {
     text-align: left;
   }
-}
 
-@media #{$breakpoint-lg} {
-  .card {
+  @include media(lg) {
     height: $card-height-lg;
     color: $brown;
     text-shadow: none;
+
+    .card-inner > * {
+      position: static;
+    }
+
+    .card-body {
+      height: $card-body-height-xl;
+    }
+
+    .card-img {
+      height: $card-img-height-lg;
+    }
   }
 
-  .card-inner > * {
-    position: static;
-  }
+  @include media(xl) {
+    .card-img {
+      height: $card-img-height-xl;
+      width: $card-img-width-xl;
+    }
 
-  .card-body {
-    height: $card-body-height-xl;
-  }
-
-  .card-img {
-    height: $card-img-height-lg;
+    .card-body {
+      width: calc(100% - #{$card-img-width-xl});
+      background: $brown;
+      color: $light-sand;
+    }
   }
 }
 
-@media #{$breakpoint-xl} {
-  .card-img {
-    height: $card-img-height-xl;
-    width: $card-img-width-xl;
-  }
-
-  .card-body {
-    width: calc(100% - #{$card-img-width-xl});
-    background: $brown;
-    color: $light-sand;
-  }
-
+@include media(xl) {
   .card:nth-child(3n+1) {
     img {
       @include border-radius($border-radius, 0, 0, $border-radius);

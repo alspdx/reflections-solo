@@ -10,27 +10,21 @@ header {
   color: $header-text-color;
 
   @include font($header-font);
-}
 
-@media #{$breakpoint-md} {
-  header {
+  @include media(md) {
     h1 {
       font-size: 2.25em;
     }
   }
-}
 
-@media #{$breakpoint-lg} {
-  header {
+  @include media(lg) {
     height: calc($header-height + 20px);
     h1 {
       font-size: 2.75em;
     }
   }
-}
 
-@media #{$breakpoint-xl} {
-  header {
+  @include media(xl) {
     height: calc($header-height + 40px);
     h1 {
       font-size: 3.25em;
