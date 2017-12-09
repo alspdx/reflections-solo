@@ -13,16 +13,16 @@
 
 @media #{$breakpoint-md} {
   .description {
-    background: $description-text-color;
-    color: $description-background;
+    background: $description-text-color; // The old switcheroo here
+    color: $description-background; // And here
     margin-bottom: 0;
   }
 }
 
 @media #{$breakpoint-lg} {
   .description {
-    background: $description-background;
-    color: $description-text-color;
+    background: $description-background; // Back 2 normal here
+    color: $description-text-color; // And here
     margin-bottom: $description-margin-amount;
     margin-left: $description-margin-amount;
     margin-right: $description-margin-amount;

@@ -30,5 +30,10 @@ header {
 }
 
 @media #{$breakpoint-xl} {
-
+  header {
+    height: calc($header-height + 40px);
+    h1 {
+      font-size: 3.25em;
+    }
+  }
 }
