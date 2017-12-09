@@ -1,6 +1,6 @@
-#
+# Reflections
 
-####  _2017_
+#### Solo project for Epicodus CSS Week 3 (Sass) _2017_
 
 #### by **Adam Smith**
 
@@ -29,13 +29,13 @@ What I took away from the project was that there are a lot of different approach
 
 ## Moving Forward:
 
-I think today will go a lot quicker since I have a sketch of the layout I'll be working on. I'll continue to not use a framework, I'm really enjoying building my own grid with a loop and setting my own styles. It's harder for me to style a page working in a pair, I like to move quickly with ideas and it can be tough to stop and talk out those ideas. I'm also much more likely to make regular commits on my own than I am working in a pair. 
+I think today will go a lot quicker since I have a sketch of the layout I'll be working on. I'll continue to not use a framework, I'm really enjoying building my own grid with a loop and setting my own styles. It's harder for me to style a page working in a pair, I like to move quickly with ideas and it can be tough to stop and talk out those ideas. I'm also much more likely to make regular commits on my own than I am working in a pair.
 
 ## Setup
 
-Visit the webpage [here]().
+Visit the webpage [here](https://alspdx.github.io/reflections-solo).
 
-Alternately you may [Clone this repository]().
+Alternately you may [Clone this repository](https://github.com/alspdx/reflections-solo).
   1. Click on the link above.
   2. Click the green button marked **Clone or download**.
   3. Click **Download ZIP**.
