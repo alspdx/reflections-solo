@@ -10,7 +10,7 @@
 }
 
 .card-img {
-  height: 100%;
+  height: $card-img-height;
   width: 100%;
   object-fit: cover;
 }
@@ -26,5 +26,13 @@
 @media #{$breakpoint-lg} {
   .card {
     height: $card-height-lg;
+    color: $brown;
+    text-shadow: none;
   }
+
+  .card-img {
+    height: $card-img-height-lg;
+  }
+
+
 }

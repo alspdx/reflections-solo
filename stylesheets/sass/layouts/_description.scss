@@ -26,6 +26,6 @@
     margin-bottom: $description-margin-amount;
     margin-left: $description-margin-amount;
     margin-right: $description-margin-amount;
-    margin-top: calc(#{$hero-height} - (#{$description-height} * 2) - (#{$description-margin-amount} * 3));
+    margin-top: $description-margin-top-lg;
   }
 }

@@ -57,7 +57,12 @@ body {
 
 @media screen and (min-width: 1024px) {
   .card {
-    height: 30vh; } }
+    height: 350px;
+    color: #523a2d;
+    text-shadow: none; }
+
+  .card-img {
+    height: 60%; } }
 [class^='col-'] {
   float: left;
   width: 100%;
@@ -404,7 +409,7 @@ header {
     margin-bottom: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
-    margin-top: calc(100vh - (28vh * 2) - (2vh * 3)); } }
+    margin-top: 38vh; } }
 .gallery {
   background: #f0f0f0;
   width: 100%;
