@@ -31,7 +31,7 @@ ul {
   list-style: none; }
 
 body {
-  color: #523a2d;
+  color: #352d29;
   font-family: "Open Sans", sans-serif; }
 
 .card {
@@ -55,34 +55,6 @@ body {
   z-index: 99;
   padding: 20px; }
 
-@media screen and (min-width: 1024px) {
-  .card {
-    height: 350px;
-    color: #523a2d;
-    text-shadow: none; }
-
-  .card-inner > * {
-    position: static; }
-
-  .card-img {
-    height: 60%; } }
-@media screen and (min-width: 1440px) {
-  .card-img {
-    height: 100%;
-    width: 60%; }
-
-  .card-body {
-    width: calc(100% - 60%); }
-
-  .card:nth-child(3n+1) .card-img {
-    float: left; }
-  .card:nth-child(3n+1) .card-body {
-    float: right; }
-
-  .card:nth-child(2) .card-img, .card:nth-child(3) .card-img {
-    float: right; }
-  .card:nth-child(2) .card-body, .card:nth-child(3) .card-body {
-    float: left; } }
 [class^='col-'] {
   float: left;
   width: 100%;
@@ -424,13 +396,13 @@ header {
 
 @media screen and (min-width: 768px) {
   .description {
-    background: #523a2d;
+    background: #352d29;
     color: #f0f0f0;
     margin-bottom: 0; } }
 @media screen and (min-width: 1024px) {
   .description {
     background: #f0f0f0;
-    color: #523a2d;
+    color: #352d29;
     margin-bottom: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
@@ -447,11 +419,52 @@ header {
 .card h4 {
   font-family: "Russo One", sans-serif;
   font-size: 20px; }
-.card:nth-child(odd) {
+.card:nth-child(odd) .card-body {
   text-align: right; }
-.card:nth-child(even) {
+.card:nth-child(even) .card-body {
   text-align: left; }
 
+@media screen and (min-width: 1024px) {
+  .card {
+    height: 450px;
+    color: #352d29;
+    text-shadow: none; }
+
+  .card-inner > * {
+    position: static; }
+
+  .card-body {
+    height: 100%; }
+
+  .card-img {
+    height: 60%; } }
+@media screen and (min-width: 1440px) {
+  .card-img {
+    height: 100%;
+    width: 60%; }
+
+  .card-body {
+    width: calc(100% - 60%);
+    background: #352d29;
+    color: #f0f0f0; }
+
+  .card:nth-child(3n+1) img {
+    border-radius: 8px 0 0 8px; }
+  .card:nth-child(3n+1) .card-img {
+    float: left; }
+  .card:nth-child(3n+1) .card-body {
+    text-align: left;
+    float: right;
+    border-radius: 0 8px 8px 0; }
+
+  .card:nth-child(2) img, .card:nth-child(3) img {
+    border-radius: 0 8px 8px 0; }
+  .card:nth-child(2) .card-img, .card:nth-child(3) .card-img {
+    float: right; }
+  .card:nth-child(2) .card-body, .card:nth-child(3) .card-body {
+    text-align: right;
+    float: left;
+    border-radius: 8px 0 0 8px; } }
 footer {
   background: transparent;
   height: 50px;

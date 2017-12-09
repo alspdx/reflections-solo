@@ -16,14 +16,78 @@
 
   h4 {
     @include font($header-font);
-    font-size: 20px;
+
+    font-size: $card-title-size;
   }
 
-  &:nth-child(odd) {
+  &:nth-child(odd) .card-body {
     text-align: right;
   }
 
-  &:nth-child(even) {
+  &:nth-child(even) .card-body {
     text-align: left;
+  }
+}
+
+@media #{$breakpoint-lg} {
+  .card {
+    height: $card-height-lg;
+    color: $brown;
+    text-shadow: none;
+  }
+
+  .card-inner > * {
+    position: static;
+  }
+
+  .card-body {
+    height: $card-body-height-xl;
+  }
+
+  .card-img {
+    height: $card-img-height-lg;
+  }
+}
+
+@media #{$breakpoint-xl} {
+  .card-img {
+    height: $card-img-height-xl;
+    width: $card-img-width-xl;
+  }
+
+  .card-body {
+    width: calc(100% - #{$card-img-width-xl});
+    background: $brown;
+    color: $light-sand;
+  }
+
+  .card:nth-child(3n+1) {
+    img {
+      @include border-radius($border-radius, 0, 0, $border-radius);
+    }
+    .card-img {
+      float: left;
+    }
+
+    .card-body {
+      text-align: left;
+      float: right;
+      @include border-radius(0, $border-radius, $border-radius, 0);
+    }
+  }
+
+  .card:nth-child(2), .card:nth-child(3) {
+    img {
+      @include border-radius(0, $border-radius, $border-radius, 0);
+    }
+    .card-img {
+      float: right;
+    }
+
+    .card-body {
+      text-align: right;
+      float: left;
+      @include border-radius($border-radius, 0, 0, $border-radius);
+    }
   }
 }

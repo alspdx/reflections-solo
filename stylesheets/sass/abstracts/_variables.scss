@@ -17,8 +17,7 @@ $breakpoints: (
 // Colors
 $light-sand: rgba(240, 240, 240, 1);
 $burnt-orange: rgba(184, 75, 22, 1);
-$brown: rgba(82, 58, 45, 1);
-$teal: rgba(14, 125, 118, 1);
+$brown: rgba(53, 45, 41, 1);
 
 // Specific colors
 $header-background: transparent;
@@ -53,12 +52,14 @@ $description-margin-top: 70vh;
 $description-margin-top-lg: 38vh;
 $description-margin: $description-margin-top $description-margin-amount $description-margin-amount;
 
+$card-title-size: 20px;
 $card-height: 200px;
-$card-height-lg: 350px;
+$card-height-lg: 450px;
 $card-img-height: 100%;
 $card-img-height-lg: 60%;
 $card-img-height-xl: 100%;
 $card-img-width-xl: 60%;
+$card-body-height-xl: 100%;
 
 $footer-height: 50px;
 $footer-font-size: 12px;
